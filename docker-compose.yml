@@ -1,8 +1,10 @@
-version : "3.3"
-services :
+version: "3.3"
+
+services:
   web:
     build:
       context: .
-     # image : trainwithshubham/my-note-app:latest
-     ports :
-         - "8000:8000"
+      # dockerfile: Dockerfile   # optional if not default
+    # image: trainwithshubham/my-note-app:latest
+    ports:
+      - "8000:8000"
