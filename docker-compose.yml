@@ -1,8 +1,8 @@
 version : "3.3"
 services :
-  web :
-     build:
-     context: .
+  web:
+    build:
+      context: .
      # image : trainwithshubham/my-note-app:latest
      ports :
          - "8000:8000"
